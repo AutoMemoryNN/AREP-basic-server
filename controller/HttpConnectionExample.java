@@ -7,7 +7,7 @@ import java.net.URL;
 public class HttpConnectionExample {
 
     private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String GET_URL = "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=fb&apikey=Q1QZFVJQ21K7C6XM";
+    private static final String GET_URL = "https://httpbin.org/get";
 
     public static void main(String[] args) throws IOException {
 
